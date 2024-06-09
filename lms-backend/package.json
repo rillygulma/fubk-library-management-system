@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon app.js",
-    "build": "npm install --prefix ./lms-backend/lms-frontend && npm run build --prefix ./lms-backend/lms-frontend"
+    "build": "cd lms-backend/lms-frontend && npm install && npm run build"
   },
   "author": "Rilly",
   "license": "ISC",
